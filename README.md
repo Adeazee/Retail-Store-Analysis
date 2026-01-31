@@ -3,19 +3,13 @@ Retail store data using SQL for data extraction and Analysis and power bi for vi
 
 ## Table of content
 
-[Project overview](Project-overview)
-
-[Tools & technologies](Tools--technologies)
-
-[Dataset overview](Dataset-overview) 
-
-[Data Engineering & SQL Analysis](DataEngineering--SQLAnalysis)
-
-[power BI Dashboard](powerBI-Dashboard)
-
-[Insights](Insights)
-
-[Recommendations](Recommendations)
+* [Project overview](Project-overview)
+* [Tools & technologies](Tools--technologies)
+* [Dataset overview](Dataset-overview) 
+* [Data Engineering & SQL Analysis](DataEngineering--SQLAnalysis)
+* [power BI Dashboard](powerBI-Dashboard)
+* [Insights](Insights)
+* [Recommendations](Recommendations)
 
 ### Project overview
 This project focuses on a mid sized fashion store chain struggling with declining sales despite increasing marketing spend. The business wants to understand why revenue is dropping and how to optimize operations
