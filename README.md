@@ -1,6 +1,21 @@
-# Retail Fashion Store Analysis
+# Fashion Store Analysis
 Retail store data using SQL for data extraction and Analysis and power bi for visualization.
 
+## Table of content
+
+[Project overview](Project-overview)
+
+[Tools & technologies](Tools--technologies)
+
+[Dataset overview](Dataset-overview) 
+
+[Data Engineering & SQL Analysis](DataEngineering--SQLAnalysis)
+
+[power BI Dashboard](powerBI-Dashboard)
+
+[Insights](Insights)
+
+[Recommendations](Recommendations)
 
 ### Project overview
 This project focuses on a mid sized fashion store chain struggling with declining sales despite increasing marketing spend. The business wants to understand why revenue is dropping and how to optimize operations
@@ -133,3 +148,60 @@ FROM store.retail
 GROUP BY stockout_flag
 ORDER BY COUNT(stockout_flag) DESC;
 ```
+
+power BI Dashboard
+The power BI Dashboard includes the following visuals:
+* Marketing spend on Customer segment
+* campaign exposure
+* customer segment
+* marketing spend on sales channel
+* transactions affected by stockout
+* customer count across sales channels
+* return on investment by campaign channel
+* campaign exposure distribution across stores
+* return on investment by stores
+* return on investment by product category
+* revenue response to marketing
+<img width="1185" height="651" alt="Screenshot 2026-01-30 225341" src="https://github.com/user-attachments/assets/885dfd76-41ff-4979-8d92-37c39f5e6839" />
+<img width="1171" height="669" alt="Screenshot 2026-01-30 225446" src="https://github.com/user-attachments/assets/0b1fee87-5c14-43a7-b872-07948698ddae" />
+<img width="1089" height="643" alt="Screenshot 2026-01-30 225536" src="https://github.com/user-attachments/assets/2638ee2e-8dfb-42f7-94c0-cd86cbe5064b" />
+
+
+
+## KEY INSIGHTS
+
+Insight 1: Marketing spend is not translating proportionally into revenue
+Despite high overall marketing spend, revenue remains comparatively low, indicating inefficient use of marketing resources.
+
+Insight 2: Certain campaign channels generate low ROI
+Some campaign channels consume a significant portion of marketing spend but generate relatively low revenue.
+
+Insight 3: High campaign exposure does not guarantee conversion
+Some stores show high campaign exposure but low revenue, indicating low conversion effectiveness.
+
+Insight 4: Operational issues limit marketing effectiveness
+Frequent stockouts prevent marketing-driven demand from converting into actual sales.
+
+Insight 5: Customer retention is weak
+A large proportion of customers are one-time buyers, reducing long-term revenue growth despite ongoing marketing efforts.
+
+## RECOMMENDATIONS
+
+Recommendation 1: Reallocate marketing budget based on ROI
+Shift marketing spend away from low-ROI channels, stores, and product categories toward high-performing segments.
+
+Recommendation 2: Optimize campaign strategy by channel
+Pause or redesign campaigns with consistently low ROI and scale campaigns that show stronger revenue response.
+
+Recommendation 3: Strengthen customer retention initiatives
+Introduce loyalty programs, personalized offers, and post-purchase engagement to convert one-time customers into repeat buyers.
+
+Recommendation 4: Strengthen collaboration between sales and inventory teams to proactively manage stock levels for high-demand products and reduce frequent stockouts
+
+Recommendation 5: Focus marketing on high-performing product categories
+Increase promotion of categories with higher ROI and reconsider marketing spend on low-demand categories.
+
+
+
+
+
