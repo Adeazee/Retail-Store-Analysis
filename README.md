@@ -4,17 +4,17 @@ Retail store data using SQL for data extraction and Analysis and power bi for vi
 ## Table of content
 
 * [Project overview](#project-overview)
-* [Tools & technologies](#tools--technologies)
+* [Tools & techniques](#tools--techniques)
 * [Dataset overview](#dataset-overview) 
-* [Data Engineering & SQL Analysis](#dataEngineering--sqlanalysis)
-* [power BI Dashboard](#powerbi-dashboard)
-* [Insights](#insights)
+* [Data Engineering & SQL Analysis](#data-engineering--sql-analysis)
+* [power BI Dashboard](#power-bi-dashboard)
+* [Insights](#key-insights)
 * [Recommendations](#recommendations)
 
 ### Project overview
 This project focuses on a mid sized fashion store chain struggling with declining sales despite increasing marketing spend. The business wants to understand why revenue is dropping and how to optimize operations
 
-## Tools and Techniques Used
+### Tools & Techniques
 #### Tools
 * SQL - Data aggregation and Analysis
 * power bi - data visualization
@@ -143,7 +143,7 @@ GROUP BY stockout_flag
 ORDER BY COUNT(stockout_flag) DESC;
 ```
 
-power BI Dashboard
+# power BI Dashboard
 The power BI Dashboard includes the following visuals:
 * Marketing spend on Customer segment
 * campaign exposure
